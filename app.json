@@ -1,9 +1,9 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://i.postimg.cc/SQBqsJjN/logo8-11-232731.png",
-    "description": "Veez Music project allow you to stream music trought the telegram voice chat feature.",
+    "name": "Quincy Music Bot",
+    "logo": "https://telegra.ph/file/f974bfa5ff9a4f02eac7f.jpg",
+    "description": "Quincy Music project allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/NexusNoob/Quincy-music",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -22,7 +22,7 @@
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": ""
+            "value": "1970749271"
         },
         "DATABASE_URL": {
             "description": "fill with the mongodb url get from cloud.mongodb.com",
@@ -32,7 +32,7 @@
         "LOG_CHANNEL": {
             "description": "create a private channel and get the channel id, add your bot as admin to the channel too",
             "required": true,
-            "value": ""
+            "value": "-1001527143726"
         },
         "BROADCAST_AS_COPY": {
             "description": "choose one between False and True, if you don't know what this is, ask to @VeezSupportGroup on telegram",
@@ -42,17 +42,17 @@
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "Missquincy_bot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "Quincy_Assist"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
+            "value": "https://telegra.ph/file/66c25cc6649a308af6724.jpg"
         },
         "THUMB_IMG": {
             "description": "fill with costum thumbnail image it's different with bg_image",
@@ -62,7 +62,7 @@
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": "Nexus_xd"
         },
         "API_ID": {
             "description": "your App ID from my.telegram.org/apps",
@@ -89,12 +89,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": "QuincyBot_Channel"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "The_lostcity"
         }
     },
     "buildpacks": [
